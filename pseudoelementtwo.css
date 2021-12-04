@@ -1,0 +1,23 @@
+p::first-letter {
+    color: red;
+    font-size: 3rem;
+}
+
+::selection {
+    background-color: pink;
+    color: white;
+}
+
+
+.demo::before, .demo::after{
+    content: ;
+    width: 50%;
+    height: 20px;
+    background-color: black;
+    display: inline-block;
+}
+
+
+input::placeholder {
+    color: brown;
+}

@@ -1,0 +1,26 @@
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1ren;
+    margin: 20px 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border: 3px solid salmon;
+    border-radius: 5px;
+}
+
+#search {
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: 8px 15px;
+    font-style: 1ren;
+    padding: 15px 40px;
+    background-color: white;
+    width: 150px;
+    transform: width 0.2s ease-in-out;
+}
+
+#search:focus {
+    background-color: tomato;
+    width: 100%;
+}

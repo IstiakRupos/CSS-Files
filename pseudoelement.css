@@ -1,0 +1,12 @@
+p:hover {
+    color: crimson;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 2rem;
+}
+
+p::after {
+    content:">" ;
+}

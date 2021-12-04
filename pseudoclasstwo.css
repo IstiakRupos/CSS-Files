@@ -1,0 +1,15 @@
+p:hover {
+    background-color: pink;
+    color: white;
+}
+
+p:last-child {
+    background-color: black;
+    color: white;
+}
+
+.demo p:nth-child(3) {
+    background-color: tomato;
+    color: white;
+}
+
